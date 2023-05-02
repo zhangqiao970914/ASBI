@@ -7,3 +7,6 @@
 
 # Pretrainde Backbone Model
 * Download pretrainde backbone model:[Res2Net50](https://pan.baidu.com/s/1DEl-jbuv73hU5mKJGUXocg), 提取码：ptlo
+
+# Result
+[Res2Net50](https://pan.baidu.com/s/1WaXNt-08IiVE7g9kQqOWKw), 提取码：1mr7
