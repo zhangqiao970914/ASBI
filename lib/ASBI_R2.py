@@ -298,13 +298,13 @@ class Network(nn.Module):
 
         # ----CRM---#
         f_g, v1, v2, v3 = self.g(r4, gt)
-        # ---BAM---#
+        # ---BEM---#
         f_e, f_e_out = self.e(r1, r2, f_g)
 
         S_e_pred = torch.sigmoid(f_e_out)
         S_e_pred = F.interpolate(S_e_pred, scale_factor=4,
                                  mode='bilinear')
-        # DRD_MEIU
+        # Decoder
         f4 = self.aim4(r4, f_e, f_g)
         f3 = self.aim3(r3, f_e, f_g)
         f2 = self.aim2(r2, f_e, f_g)
