@@ -6,7 +6,8 @@
 * Download test datasets:[TestDatastes](https://pan.baidu.com/s/1akzyy9olDdorKIvToDx0qQ), 提取码：nepu 
 
 # Pretrainde Backbone Model
-* Download pretrainde backbone model:[Res2Net50](https://pan.baidu.com/s/1DEl-jbuv73hU5mKJGUXocg), 提取码：ptlo
+* [Res2Net50](https://pan.baidu.com/s/1DEl-jbuv73hU5mKJGUXocg), 提取码：ptlo
+* [PVTv2-B2](https://pan.baidu.com/s/1vJWC7zdXLRZTJGVJ0UGB5w), 提取码：fbfs
 
 # Result
 * [Res2Net50](https://pan.baidu.com/s/1WaXNt-08IiVE7g9kQqOWKw), 提取码：1mr7
