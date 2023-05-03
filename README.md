@@ -18,4 +18,6 @@
 
 # Model
 * [Res2Net50](https://pan.baidu.com/s/14Jh-DTkXxLUfYRPlWKLCLw), 提取码：20si
-
+* [ResNet50](https://pan.baidu.com/s/1TLAuni_2CeFcV5DZ5g1K8w), 提取码：rc13
+* [PVTv2-B2](https://pan.baidu.com/s/19w5RkwDDybqFyulGwnrcKw), 提取码：jes1
+* [EfficientNet-B1]
