@@ -16,9 +16,3 @@
 * [PVTv2-B2](https://pan.baidu.com/s/1dsDbuEekDSh-2d2FmUi3JA), 提取码：p2j9
 * [EfficientNet-B1](https://pan.baidu.com/s/15QS_J96sPclN_RGir7MeXA), 提取码：clyk
 
-# Model
-* [Res2Net50](https://pan.baidu.com/s/14Jh-DTkXxLUfYRPlWKLCLw), 提取码：20si
-* [ResNet50](https://pan.baidu.com/s/1TLAuni_2CeFcV5DZ5g1K8w), 提取码：rc13
-* [PVTv2-B2](https://pan.baidu.com/s/19w5RkwDDybqFyulGwnrcKw), 提取码：jes1
-* [EfficientNet-B1](https://pan.baidu.com/s/1Szq5R-P_RVur7xM-kf5gEw), 提取码：wd71
-
