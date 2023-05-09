@@ -215,9 +215,11 @@ class AIM(nn.Module):
             nn.Sigmoid()
         )
         self.aspp = ASPP(64)
-
+        self.conv_re = nn.Conv2d(64, 1, 1)
+        self.conv_rg = nn.Conv2d(64, 1, 1)
+        self.conv_8 = BasicConv2d(64, 64, kernel_size=3, stride=1, padding=1)
     def forward(self, x, xe, xg):
-        # x: 代表当前层特征; xe: 代表边界特征; xg: 代表全局特征
+        # x: 代表当前层特征; xr: 代表边界特征; xg: 代表全局特征
         if xg.size()[2:] != x.size()[2:]:
             xg = F.interpolate(xg, size=x.size()[2:], mode='bilinear')
         if xe.size()[2:] != x.size()[2:]:
@@ -225,6 +227,10 @@ class AIM(nn.Module):
 
         x1 = xg
         x2 = xe
+
+        fe_r = torch.sigmoid(self.conv_re(xe))
+        fg_r = torch.sigmoid(self.conv_rg(xg))
+        r_att = -1 * (fe_r + fg_r) + 1
 
         x = self.conv_1(x)
         x1 = self.conv_2(x1)
@@ -246,6 +252,9 @@ class AIM(nn.Module):
         xe = self.conv_7(x_2_cat_conv)
         xg = x_1_cat_conv
         final = xe + xg
+
+        final = self.conv_8(final * r_att)
+
         final = self.aspp(final)
         return final
 
