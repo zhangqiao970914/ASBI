@@ -1,5 +1,5 @@
 # ASBI
-* This project provides the code and results for **'Attention-induced Semantic and Boundary Interaction Network for Camouflaged Object Detection'**.
+* This project provides the code and results for **'Attention-induced Semantic and Boundary Interaction Network for Camouflaged Object Detection'**.[CVIU]([https://link.springer.com/article/10.1007/s00371-022-02611-1](https://www.sciencedirect.com/science/article/pii/S1077314223000991))
 # Datasets
 * Download train datasets:[TrainDatasets](https://pan.baidu.com/s/1QSwZK_fJWdznkmyBli2fdg), 提取码：nepu
 * Download test datasets:[TestDatastes](https://pan.baidu.com/s/1akzyy9olDdorKIvToDx0qQ), 提取码：nepu 
