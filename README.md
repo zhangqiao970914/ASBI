@@ -17,4 +17,5 @@
 
 # Model
 * [Res2Net50](https://pan.baidu.com/s/1o5cgmuGlI-U5ToCZ8OmpcQ), 提取码：ur51
+* [PVTv2-B2](https://pan.baidu.com/s/17QVruX7UHAT6WAAUWZoR9Q), 提取码：t8iv
 
